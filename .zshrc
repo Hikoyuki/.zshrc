@@ -54,3 +54,24 @@ setopt prompt_subst
  
 # プロンプトの右側にメソッドの結果を表示させる
 RPROMPT='`rprompt-git-current-branch`'
+#alias hub-pr="hub pull-request | open"↵
+#alias git="hub"↵
+alias ping-loop="while true; do ping www.google.com; sleep 3; done;"↵
+alias gommit="git commit"↵
+alias tag-gen="ripper-tags -e -R -f TAGS"↵
+alias h="heroku"↵
+↵
+alias la="ls -a"↵
+alias lf="ls -F"↵
+alias ll="ls -l"↵
+alias lv="less"↵
+↵
+alias e="emacs -nw"↵
+alias g="git"↵
+alias ga="git add -A"↵
+alias gc="git commit -m"↵
+alias gp="git push"↵
+#alias gs="git status"↵
+alias gd="git diff"↵
+alias gl="git log --pretty='format:%Cblue[%ad] %Cgreen%an %Creset%s' --date=short"↵
+alias gr="git remote -v"↵
